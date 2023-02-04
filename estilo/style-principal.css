@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@300&display=swap');
+@import url(/estilo/header.css);
+@import url(/estilo/apresentacao.css);
+@import url(/estilo/sobre-mim.css);
+@import url(/estilo/araea-front.css);
+@import url(/estilo/tecnologias.css);
+@import url(/estilo/projetos.css);
+@import url(/estilo/containerProjeto.css);
+@import url(/estilo/habilidades.css);
+@import url(/estilo/rodape.css);
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: #242739;
+    font-family: 'Inter', sans-serif;
+}
+a{
+  text-decoration: none;
+  color: #ffff;
+}
+
+
+body::-webkit-scrollbar {
+    width: 3px;
+  }
+  body::-webkit-scrollbar-track {
+    background: linear-gradient(#041833, #25282c);
+  }
+  body::-webkit-scrollbar-thumb {
+    background-color: #454545;
+    border-radius: 20px;
+  }

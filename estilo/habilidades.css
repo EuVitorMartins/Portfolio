@@ -1,0 +1,42 @@
+.habilidades{
+    margin: 20px 100px;
+    margin-bottom: 80px;
+}
+
+.habilidades h2{
+    color: #ffff;
+    text-align: center;
+    margin: 30px 0;
+    font-size: 3em;
+    font-family: 'Fugaz One', cursive;
+    color: #f2d938;
+    font-weight: 400;
+    text-shadow: 2px 2px 5px #bcbcbc53;
+}
+
+.habilidades-itens{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 100px;
+}
+
+.habilidades-lista{
+    border-left: 6px solid #bcbcbc53 ;
+    padding-left: 40px;
+    border-radius: 5px;
+}
+
+.habilidades-item{
+    list-style: none;
+    color: #ffff;
+    font-size:24px;
+    padding: 5px 15px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+
+}
+
+.habilidades-item-titulo{
+    font-size: 28px;
+    padding: 15px 0px;
+}

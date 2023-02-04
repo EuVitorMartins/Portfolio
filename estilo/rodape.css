@@ -1,0 +1,12 @@
+.rodape{
+    background-color: #272727;
+}
+
+.rodape p{
+    color: #ffff;
+    text-align: center;
+    padding: 20px 0;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+}

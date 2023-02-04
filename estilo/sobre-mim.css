@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family= Crimson+Text:wght@600 & display = swap');
+
+.sobre__mim{
+    column-gap: 80px;
+}
+
+.sobre__mim-fundo{
+    margin: auto;
+    
+}
+
+.sobre__mim-imagem{
+    width: 450px;
+    margin: auto;
+    background: yellow;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.sobre__mim-texto{
+    margin: 0 auto;
+    color: #ffff;
+}
+
+.sobre__mim-texto h2{
+    font-size: 2.5em ;
+    font-family: 'Fugaz One', cursive;
+    color: rgb(242, 217, 56);
+    text-shadow: 2px 2px 5px #bcbcbc53;
+    text-transform: capitalize;
+    font-weight: 400;
+}
+
+.sobre__mim-texto p {
+    line-height: 1.5;
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+.sobre__mim-texto p strong{
+    font-family: 'Crimson Text', serif;
+    
+}

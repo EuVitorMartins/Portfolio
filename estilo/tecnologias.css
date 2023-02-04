@@ -1,0 +1,54 @@
+.tecnologias{
+    background: #272727;
+    padding-bottom: 50px ;
+}
+
+.tecnologias h2{
+    text-align: center;
+    padding: 25px 0;
+    font-size: 3em ;
+    font-family: 'Fugaz One', cursive;
+    color: rgb(242, 217, 56);
+    font-weight: 400;
+    text-shadow: 2px 2px 5px #bcbcbc53;
+    text-transform: capitalize;
+}
+
+.tecnologias__principais{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.tec{
+    background: #787878;
+    width: 300px;
+    height: 130px;
+    border-radius: 0 30px 30px 30px;
+    box-shadow: 2px 2px 5px #ffff0037 ;
+    display: flex;
+    justify-content:  space-evenly;
+    transition: 0.3s;
+}
+
+.tec:hover{
+    width: 310px;
+    height: 130px;
+    border: 3px solid  rgb(242, 217, 56);
+}
+
+.tec-img{
+    width: 100px;
+}
+
+.tec-texto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ 
+.tec-texto h3{
+    font-size: 20px;
+    color: #ffff;
+    text-shadow: 2px 2px 5px #000000;
+    font-weight: 600;
+}

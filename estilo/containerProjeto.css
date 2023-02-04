@@ -1,0 +1,68 @@
+.container__projeto{
+    background: #272727;
+    padding: 25px 0;
+}
+
+.container__projeto h2{
+    font-size: 2em ;
+    font-family: 'Fugaz One', cursive;
+    color: rgb(242, 217, 56);
+    font-weight: 400;
+    text-shadow: 2px 2px 5px #bcbcbc53;
+    padding: 25px 0 25px 50px;
+}
+
+.container__projeto-box{
+    padding: 0 100px;
+    display: flex;
+    justify-content:  space-between;
+}
+
+
+.container__sobreposicao{
+    border: 2px solid #202020;
+    box-shadow: 5px 5px 10px #ffff0037 ;
+    position: relative;
+    width: 300px;
+
+}
+
+.container__sobreposicao-img{
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: 200px;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    cursor: pointer;
+}
+
+.container__sobreposicao-texto{
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    cursor: pointer;
+
+}
+
+.container__sobreposicao:hover .container__sobreposicao-img{
+    opacity: 0.3;
+}
+
+.container__sobreposicao:hover .container__sobreposicao-texto{
+    opacity: 1;
+}
+
+.container__sobreposicao-texto h3{
+    background: #4910f5;
+    color: #ffff;
+    text-shadow: 2px 2px 5px #000000;
+    padding: 10px;
+    font-size: 1.5em;
+    border-radius: 50px;
+    text-align: center;
+}

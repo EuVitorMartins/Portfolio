@@ -1,0 +1,27 @@
+.cabecalho{
+    display:flex;
+    justify-content: center;
+    background: #151515;
+    padding: 10px 0 5px 0;
+}
+
+.container{
+  padding: 10px 0;
+}
+
+nav li{
+    text-transform: uppercase;
+    display: inline;
+    padding: 0 20px;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+}
+nav li:hover{
+    color: #e9e972;
+    font-size: 21px;
+    font-weight: 600;
+}
+i{
+    padding-right: 7px;
+}

@@ -1,0 +1,28 @@
+.projetos-imagem{
+    padding-top: 87px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projetos-imagem img{
+    width: 320px;
+}
+
+.projetos-texto h2{
+    padding-bottom: 10px;
+    font-size: 3em ;
+    font-family: 'Fugaz One', cursive;
+    color: rgb(242, 217, 56);
+    text-shadow: 2px 2px 5px #bcbcbc53;
+    text-transform: capitalize;
+    font-weight: 400;
+}
+
+.projetos-texto{
+    color: #ffff;
+    line-height: 1.5;
+    margin: 0 auto;
+    font-size: 20px;
+    font-weight: 400;
+}

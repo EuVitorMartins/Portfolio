@@ -1,0 +1,30 @@
+.area__front{
+    column-gap: 80px;
+}
+
+.area__front-texto{
+    color: #ffff;
+    line-height: 1.5;
+    margin: 0 auto;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.area__front-texto h2{
+    font-size: 2em ;
+    font-family: 'Fugaz One', cursive;
+    color: rgb(242, 217, 56);
+    text-shadow: 2px 2px 5px #bcbcbc53;
+    text-transform: capitalize;
+    font-weight: 400;
+}
+
+.area__front-imagem{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.area__front-imagem img{
+    width: 400px;
+}
