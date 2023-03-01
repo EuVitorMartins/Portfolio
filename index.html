@@ -10,18 +10,19 @@
 </head>
 <body>
     <header class="cabecalho">
-        <div class="container">
+        <div class="container" id="home">
             <nav>
-                <ul>
-                    <li name="lista-item"><a name=lista-link><i class="fa-solid fa-house"></i>Home</a></li>
-                    <li name="lista-item"><a name=lista-link><i class="fa-solid fa-user"></i>Sobre</a></li>
-                    <li name="lista-item"><a name=lista-link><i class="fa-solid fa-folder"></i>Projeto</a></li>
+                <ul class="desktop">
+                    <li><a href="#home" ><i class="fa-solid fa-house"></i>Home</a></li>
+                    <li><a href="#sobre" ><i class="fa-solid fa-user"></i>Sobre</a></li>
+                    <li><a href="#projeto" ><i class="fa-solid fa-folder"></i>Projeto</a></li>
                 </ul>
+
             </nav>
         </div>
     </header>
     <section class="apresentacao">
-            <div class="apresentacao__texto">
+            <div class="apresentacao__texto" >
                 <p>Hello Word...</p>
                 <h1>Vitor Martins</h1>
                 <div class="animacao"></div>
@@ -38,9 +39,9 @@
 
 
     </section>
-    <section class="apresentacao sobre__mim">
-        <div class="sobre__mim-fundo">
-            <img class="sobre__mim-imagem" src="img/capaSobreMim.PNG" alt="Imagem Vitor Martins">
+    <section class="apresentacao sobre__mim" id="sobre">
+        <div class="sobre__mim-fundo desktop" >
+            <img class="sobre__mim-imagem " src="img/capaSobreMim.PNG" alt="Imagem Vitor Martins">
         </div>
         <div class="sobre__mim-texto">
             <h2>Sobre mim</h2>
@@ -64,7 +65,7 @@
             <img  src="img/img-front-end.png" alt="Imagem Vitor Martins">
         </div>
     </section>
-    <section class="tecnologias">
+    <section class="tecnologias" id="projeto">
         <h2>Principais tecnologias</h2>
         <div class="tecnologias__principais">
             <div class="tec">

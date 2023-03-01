@@ -15,6 +15,11 @@
     margin: 0px;
     padding: 0px;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
 body{
     background: #242739;
     font-family: 'Inter', sans-serif;
@@ -23,7 +28,6 @@ a{
   text-decoration: none;
   color: #ffff;
 }
-
 
 body::-webkit-scrollbar {
     width: 3px;
@@ -34,4 +38,11 @@ body::-webkit-scrollbar {
   body::-webkit-scrollbar-thumb {
     background-color: #454545;
     border-radius: 20px;
+  }
+
+
+  @media (max-width: 470px){
+   .desktop{ 
+      display: none;
+    }
   }

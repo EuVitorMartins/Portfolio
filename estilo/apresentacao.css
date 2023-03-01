@@ -65,3 +65,24 @@
     color: gray;
     transition: 1s;
 }
+
+@media (max-width: 470px){
+    .apresentacao{
+        display: block;
+        padding: 0px ;
+        margin:  auto ;
+    }
+
+    .apresentacao__texto{
+        margin : 20px  50px;
+    }
+
+    .apresentacao__texto h1{
+        padding: 10px ;
+        line-height: 88%;
+    }
+
+    .apresentacao__imagem img{
+       width: 400px;
+    }
+}

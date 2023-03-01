@@ -9,6 +9,7 @@
   padding: 10px 0;
 }
 
+
 nav li{
     text-transform: uppercase;
     display: inline;
@@ -24,4 +25,8 @@ nav li:hover{
 }
 i{
     padding-right: 7px;
+}
+
+nav .mobile {
+    display: none;
 }
